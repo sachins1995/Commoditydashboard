@@ -14,7 +14,7 @@ pages={"VAAP":[st.Page("dashboard_shrimp.py", title="Aqua"), st.Page("dashboard_
                     st.Page("dashboard_chana.py", title="Chana"),
                     st.Page("dashboard_basmati.py", title="Basmati"),
                     st.Page("dashboard_finepaddy.py", title="Fine Paddy"),
-                    st.Page("dashboard_Maize.py", title="Maize")
+                    st.Page("dashboard_maize.py", title="Maize")
                     ]}
 pg = st.navigation(pages, position="top", expanded=False)
 pg.run()
